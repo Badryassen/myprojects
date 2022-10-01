@@ -19,6 +19,26 @@ section {
     border-radius: 15px;
     transition: all 0.5s;
 }
+/* small */
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* medim */
+@media(min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* lager */
+@media(min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
 
 section:hover {
     height: 400px;
